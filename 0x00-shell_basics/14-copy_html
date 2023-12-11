@@ -1,2 +1,2 @@
 #!/bin/bash
-source_dir=$(pwd) target_dir=$(dirname $source_dir)/ find $source_dir -maxdepth 1 -name "*.html" -exec cp --update --archive {} $target_dir \
+touch /tmp/file_0.html; stat -c "%A %h %U %G %s %n" /tmp/file_0.html
