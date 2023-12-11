@@ -1,2 +1,2 @@
 #!/bin/bash
-touch /tmp/file_0.html stat -c "%A %h %U %G %s %n" /tmp/file_0.html
+for file in *.HTML do [ "$file" -nt "../$file" ] && cp "$file" "../$file" done
