@@ -1,1 +1,2 @@
-ls -A1p | LC_ALL=C sort -df | tr '\n' ',' | sed 's/,$/\n/'
+#!/bin/bash
+ls -A1p | LC_ALL=C sort -df | tr '\n' ',' | sed 's/,$/\n/ii'
