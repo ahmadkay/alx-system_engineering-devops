@@ -1,0 +1,4 @@
+#!/bin/bash
+source_dir=$(pwd) 
+200~target_dir=$(dirname $source_dir)/
+find $source_dir -maxdepth 1 -name "*.html" -exec cp --update --archive {} $target_dir \;
