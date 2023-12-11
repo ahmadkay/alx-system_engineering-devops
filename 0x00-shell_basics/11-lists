@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l ls -l .. ls -l /boot
+echo "Listing files in the current directory:" ls -l echo -e "\nListing files in the parent of the working directory:" ls -l .. echo -e "\nListing files in the /boot directory:" ls -l /boot
